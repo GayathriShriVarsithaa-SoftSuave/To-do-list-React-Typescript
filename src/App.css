@@ -1,0 +1,20 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
+  background-color: rgb(247, 240, 249);
+}
+.appbody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+}
+@media screen and (max-width: 736px) {
+  .appbody {
+    flex-direction: column;
+  }
+}

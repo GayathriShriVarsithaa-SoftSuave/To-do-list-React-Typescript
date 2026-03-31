@@ -1,0 +1,62 @@
+.formbody {
+  width: 40%;
+}
+.formbody .formcls {
+  width: 90%;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 15px;
+}
+.formbody .formcls input,
+select {
+  background-color: rgb(247, 240, 249);
+  border: 0px;
+  color: black;
+  width: 85%;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+  height: 30px;
+}
+.formbody .formcls textarea {
+  background-color: rgb(247, 240, 249);
+  border: 0px;
+  color: black;
+  width: 90%;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+  height: 100px;
+  padding-top: 10px;
+}
+.formbody .form-title {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.formbody .savebtn {
+  display: block;
+  border: 0px;
+  border-radius: 7px;
+  margin: 20px auto;
+  height: 30px;
+  width: 80px;
+  background-color: rgb(66, 191, 233);
+  color: white;
+}
+.formbody .formcls label {
+  color: black;
+  font-size: 15px;
+  margin-left: 10px;
+}
+@media screen and (max-width: 736px) {
+  .formbody {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
